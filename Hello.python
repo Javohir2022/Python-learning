@@ -1,0 +1,12 @@
+import math
+miqdor = int(input("Miqdori girit: "))
+if miqdor < 100:
+    qaytimi = miqdor * 0.05
+    print("Qaytimi: ", qaytimi)
+elif miqdor < 500:
+    qaytimi = miqdor * 0.10
+    print("Qaytimi: ", qaytimi)
+else:
+    qaytimi = miqdor * 0.15
+    print("Qaytimi: ", qaytimi)
+    print("Sof to'lanadon: ", miqdor - qaytimi)
